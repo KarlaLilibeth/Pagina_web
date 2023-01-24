@@ -1,0 +1,223 @@
+*{
+    margen: 0;
+    relleno: 0;
+     tamaño de caja: border-box; 
+}
+
+cuerpo{
+    font-family: "Open Sans" ;
+}
+
+. contenedor{
+    relleno: 60px 0;
+    Anchura: 90%;
+    Ancho máximo: 1000px;
+    margen: automático;
+    desbordamiento: oculto;
+}
+
+. titulo{
+    Color: #2A78B8;
+    tamaño de fuente: 30px;
+    alineación de texto: centro;
+    Margen inferior: 60px; 
+}
+
+/*encabezado*/
+
+encabezado{
+    Ancho: 100%;
+    Altura: 600px;
+    antecedentes: #1dddcd; 
+     /* Fallback para navegadores antiguos */
+Fondo: degradado lineal(a la derecha, HSLA(176, 68%, 74%,  0.637),  HSLA(219, 66%, 72%, 0.63), #28d49b),url(.. /img/videojuegos.png); 
+ /* Chrome 10-25, Safari 5.1-6 */
+Fondo: degradado lineal(a la derecha, HSLA(176, 68%, 74%,  0.637),  HSLA(219, 66%, 72%, 0.63), #7F7FD5),url(.. /img/videojuegos.png); 
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+tamaño de fondo: cubierta;
+archivo adjunto de fondo: fijo;
+Cargo: Relativo;
+}
+
+Nav{
+    alineación de texto: derecha;
+    relleno: 30 px 50 px 0 0 ;
+}
+
+nav > a{
+    Color: rgb(8, 8, 8);
+    font-weight: 300;
+    decoración de texto: ninguno;
+    Margen derecho: 10px;
+}
+
+> de navegación  A:Hover{
+    decoración de texto: subrayado;
+    
+}
+
+encabezado . texto-header{
+    Pantalla: Flex;
+    Altura: 430px;
+    Ancho: 100%;
+    align-items: centro;
+    justificar-contenido: centro;
+    dirección flexible: columna;
+    alineación de texto: centro;
+}
+
+. texto-header h1{
+    tamaño de fuente: 50px;
+    Color: #FFF;
+}
+
+. texto-header h2{
+    tamaño de fuente: 30px;
+    font-weight: 300;
+    Color: #FFF;
+}
+. ola{
+    Posición: absoluta;
+    Inferior: 0;
+    Anchura: 100%;
+}
+
+  
+. contenedor-sobre-destinos{
+    Pantalla: Flex;
+    justificar-contenido: espacio-uniforme;
+}
+
+
+
+. sobre-destinos . contenedor-textos{
+    Anchura: 48%;
+}
+
+. contenedor-textos h3{
+    Margen inferior: 15px; 
+}
+
+. contenedor-textos h3 span{
+    color de fondo: RGB (173, 59, 59 );
+    Color: #FFF;
+    Radio de borde: 50px;
+    Pantalla: bloque en línea;
+    alineación de texto: centro;
+    Anchura: 30px;
+    Altura: 30px;
+    Relleno: 2px;
+    Sombra de caja: 0 0 6px 0 RGBA(0, 0,  0, 5 );
+    Margen derecho: 5px;
+}
+
+. contenedor-textos p{
+    relleno:0 px 0 px 30 px 15 px;
+    font-weight: 300;
+    alineación de texto: justificar;
+}
+
+/* Galeria*/
+
+. Catalogo{
+    Antecedentes: #12548a;
+
+}
+
+
+
+. Hover-Galeria{
+    Posición: absoluta;
+    Anchura: 100%;
+    Altura: 100%;
+    Arriba: 0 ;
+    transformar: escala(0);
+    Antecedentes: HSLA(0, 8%, 15%, 0.7);
+transición:transformar .5s ;
+Pantalla: Flex;
+justificar-contenido: centro;
+align-items: centro;
+dirección flexible: columna;
+}
+-hover-galeria img{
+    Anchura: 50pxs;
+}
+
+. hover-galeria p{
+    Color: rgb(21, 141, 211);
+}
+
+. imagen-cat:hover . Hover-Galeria{
+    transformar: escala(1);
+}
+
+/* nuestro equipo */
+
+. Acerca de-destinos{
+    Antecedentes: #F2F2F2;
+    fondo de relleno: 30px;
+}
+
+. servicio-cont{
+    Pantalla: Flex;
+    justificar-contenido: espacio-entre;
+    align-items: centro;
+}
+
+. servicio-ind{
+    Anchura: 28%;
+    alineación de texto: centro;
+}
+
+. servicio-ind img{
+    Anchura: 90%;
+}
+
+. servicio-ind H3{
+    margen: 10px 0;
+}
+
+. servicio-ind p{
+    font-weight: 300;
+    alineación de texto: justificar;
+}
+
+/*pie de página*/
+
+pie de página{
+    Antecedentes: #414141;
+    relleno: 60 px 0 30 px 0 ;
+    margen: automático;
+    desbordamiento: oculto;
+}
+
+. contenedor-footer{
+Pantalla: Flex;
+Anchura: 90%;
+justificar-contenido: espacio-uniforme;
+margen: automático;
+fondo de relleno: 50px;
+borde inferior: 1px sólido #CCC;
+}
+
+. contenedor-pie{
+    alineación de texto: centro;
+}
+
+. Contenedor-pie H4{
+   Color: #FFF;
+   Borde-fondo: 3px sólido #2a78b8 ;
+   fondo de relleno: 5px;
+   Margen inferior: 10px;
+}
+
+. contenedor-pie p{
+    Color: #CCC;
+}
+
+. titulo-final{
+    alineación de texto: centro;
+    tamaño de fuente: 24px;
+    Margen: 20px  0 0 0;
+    Color: #2A78B8;
+}
